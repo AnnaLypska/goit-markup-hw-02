@@ -1,3 +1,48 @@
-body {
-    background-color: aqua;
+:root{
+    --primery-text-color:rgba(0, 0, 0, 0.8);
+    --title-text-color:black;
+    --accent-color: #2196F3;
+    --primery-bg-color:#2196F3;
+    --button-primery-color:#ffffff;
 }
+
+body {
+    background-color:#ffffff;
+    color: var(--primery-text-color)}
+
+.list {
+    list-style: none;}
+
+      /* Site nav */
+
+.site-nav a .link current{
+    color:rav{var(--accent-color)};}
+
+.site-nav a:hover,
+.site-nav a:focus
+{color:var(--accent-color)}    
+  
+/* main */
+.hero-title{
+    color:var(--title-text-color);
+}
+
+.section-title{
+    color:var(--title-text-color);
+}
+
+/* Button */
+.button{
+    color:var(--button-primery-color);
+    background: var(--primery-bg-color);
+}
+
+.button.primery{
+    color:var(--button-primery-color);
+    background: var(--primery-bg-color);
+}
+/* цвет основного текста #212121*/
+/* второстепенный цвет #757575*/
+/* белый #FFFFFF*/
+/* акцент #2196F3*/
+/* вторичный цвет фона #F5F4FA */
