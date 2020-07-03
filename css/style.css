@@ -22,7 +22,7 @@ body {
 .site-nav a:focus
 {color:var(--accent-color)}    
   
-/* main */
+/* main studio*/
 .hero-title{
     color:var(--title-text-color);
 }
