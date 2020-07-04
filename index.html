@@ -4,41 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">       
     <link rel="stylesheet" href="../goit-markup-hw-02/css/style.css">
 </head>
-<body class="page">
-
-    <header>
-        <nav>
-         <a href="./index.html">Web Studio</a>
-         <ul class="site-nav list">
-            <li><a href=""class="link current">Студия</a></li>
-            <li><a href="">Портфолио</a></li>
-            <li><a href="">Контакты</a></li>
+<body>
+    
+    <!--HEADER-->
+     <header class="header">
+         <nav class="navigation">
+         <a class="logo link" href="./index.html"><span class="web">Web</span> Studio</a>
+         <ul class="site-nav-list list">
+            <li class="site-nav-list-item">
+                <a class="site-nav-list-item-link link"href=""class="link current">Студия</a>
+            </li>
+            <li class="site-nav-list-item">
+                <a class="site-nav-list-item-link link" href="">Портфолио</a>
+            </li>
+            <li class="site-nav-list-item">
+                <a class="site-nav-list-item-link link" href="">Контакты</a>
+            </li>
          </ul>
-        </nav>
+         </nav>
         
-        <div class="auth-nav list">
-            <a href="info@devstudio.com">info@devstudio.com</a>
-                
-            <a href="+380961111111">+38 096 111 11 11</a>
+        <div class="header-address">
+            <a class="header-address-mail link" href="info@devstudio.com">info@devstudio.com</a>
+            <a class="header-address-tel link" href="+380961111111">+38 096 111 11 11</a>
         </div>
+     </header>
 
-    </header>
 
-
+    <!--MAIN-->
     <main>
 
-        <section class="hero">
+        <section>
           <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br />
              ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-          <button class="button primery">Заказать услугу</button>
+          <button class="modal-btn">Заказать услугу</button>
         </section>
           
        <!--Значки о нас--> 
         <section>
             <h2 hidden></h2>
-            <ul>
+            <ul class="list">
                 <li>
                     <h3 class="section-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
                     <p>Идейные соображения, а также начало повседневной работы по формированию позиции</p>   
@@ -65,17 +73,17 @@
          <section>
              <h2 class="section-title"> Чем мы занимаемся </h2>
              
-                 <p> Десктопные приложения</p>
-                 <p> Мобильные приложения</p>
-                 <p> Дизайнерские решения</p>
+                 <p > Десктопные приложения</p>
+                 <p > Мобильные приложения</p>
+                 <p > Дизайнерские решения</p>
              
          </section>
 
          <!--Наша команда-->
-         <section>
+         <section class="secondary-bg-color">
              <h2 class="section-title"> Наша команда</h2>
 
-            <ul>
+            <ul class="list">
                 <li>
                      <img src="./image/1img.jpg" alt="Николай Кучеренко">
                      <h3 class="section-title"> Николай Кучеренко</h3>
@@ -129,7 +137,7 @@
          <!-- Постоянные клиенты-->
          <section>
              <h2 class="section-title"> Постоянные клиенты </h2>
-             <ul>
+             <ul class="list">
                 
                 <li>
                      <a href=""><img src="./image/logo1.svg" alt="Ja&Co"></a>
@@ -162,38 +170,46 @@
 
 
     <footer>
-      <div>  
-        <a href="./index.html">Web Studio</a>
-             <address>
-               г.Киев, пр-т Леси Украинки,26 <br />
-               info@devstudio.com <br />
-               +38 096 111 11 11 
-             </address>
-      </div> 
+        <div>  
+            <a href="./index.html">Web Studio</a>
+            <address>
+                <span class="title-secondary"> г.Киев, пр-т Леси Украинки,26<br /></span> 
+                <span class="contact">info@devstudio.com <br /></span> 
+                <span class="contact">+38 096 111 11 11</span> 
+            </address>
+        </div>
+         
 
-     <div>
-        <b>Присоединяйтесь</b>
-         <ul>
-            <li> 
-                <a href="" aria-label="Instagram"></a> 
-            </li>
-            <li> 
-                <a href="" aria-label="Twitter icon"></a>
-            </li>
-            <li> 
-                <a href="" aria-label="Facebook icon"></a>
-            </li>
-            <li> 
-                <a href="" aria-label="Linkedyn icon"></a>
-            </li>
-         </ul>
-     </div>  
+        <div>
+             <b class="title-secondary">Присоединяйтесь</b>
+             <ul>
+                <li> 
+                    <a href="" aria-label="Instagram"></a> 
+                </li>
+                <li> 
+                    <a href="" aria-label="Twitter icon"></a>
+                </li>
+                <li> 
+                    <a href="" aria-label="Facebook icon"></a>
+                </li>
+                <li> 
+                    <a href="" aria-label="Linkedyn icon"></a>
+                </li>
+            </ul>
+        </div>  
      
-     <div>
-       <b class="button primery">Подписаться на рассылку</b> 
-     </div>
-
+        <div>
+             <b class="title-secondary">Подпишитесь на рассылку</b> 
+             <button class="title-secondary">Подписаться</button>
+        </div>
     </footer>
     
 </body>
 </html>
+
+
+<!--Raleway bold
+ Roboto medium
+ Roboto black
+ Roboto bold
+ Roboto regular-->

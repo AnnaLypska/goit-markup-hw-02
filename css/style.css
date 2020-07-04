@@ -1,46 +1,105 @@
 :root{
-    --primery-text-color:rgba(0, 0, 0, 0.8);
-    --title-text-color:black;
-    --accent-color: #2196F3;
-    --primery-bg-color:#2196F3;
-    --button-primery-color:#ffffff;
+    --secondary-bg-color: #F5F4FA;
+    --footer-bg-color: #2F303A;
+
+    --title-text-color:#212121;
+    --title-secondary-text-color:#FFFFFF;
+    --primery-text-color:#757575;
+    --footer-text-color:rgba(255, 255, 255, 0.6);
+   
+    --accent-color:#2196F3;
+    --button-color:#2196F3;
 }
 
 body {
-    background-color:#ffffff;
-    color: var(--primery-text-color)}
+    background-color:#FFFFFF;
+    color: var(--primery-text-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
 
 .list {
-    list-style: none;}
+    list-style: none;
+}
 
-      /* Site nav */
+.link {
+    text-decoration: none;
+}   
 
-.site-nav a .link current{
-    color:rav{var(--accent-color)};}
+/* Header */
+.logo {
+    color: #212121;
+}
 
-.site-nav a:hover,
-.site-nav a:focus
-{color:var(--accent-color)}    
+.logo:hover,
+.logo:focus{
+    color: var(--accent-color);
+}
+
+.web{
+    color:var(--accent-color);
+}
+
+.site-nav-list-item-link,
+.header-address-mail, 
+.header-address-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color); 
+}
+
+.site-nav-list-item-link:hover,
+.site-nav-list-item-link:focus,
+.header-address-mail:hover,
+.header-address-mail:focus, 
+.header-address-tel:hover,
+.header-address-tel:focus {
+    color: var(--accent-color)
+}    
   
-/* main studio*/
-.hero-title{
-    color:var(--title-text-color);
+.header-address-mail, 
+.header-address-tel
+{    color:var(--primery-text-color);
 }
 
+
+
+
+
+
+
+
+ /* Main */
+.hero-title {
+    color:#FFFFFF;
+}
 .section-title{
-    color:var(--title-text-color);
+    color: var(--title-text-color);
 }
 
-/* Button */
-.button{
-    color:var(--button-primery-color);
-    background: var(--primery-bg-color);
+.secondary-bg-color{
+    background-color: var(--secondary-bg-color);
 }
 
-.button.primery{
-    color:var(--button-primery-color);
-    background: var(--primery-bg-color);
+/* Портфолио */
+
+
+/* Footer */
+footer{
+    background-color: var(--footer-bg-color);
 }
+
+.contact{
+      color:{var(--footer-text-color)}
+  }
+
+.title-secondary{
+    color: var(--title-secondary-text-color);
+}
+
+
 /* цвет основного текста #212121*/
 /* второстепенный цвет #757575*/
 /* белый #FFFFFF*/
