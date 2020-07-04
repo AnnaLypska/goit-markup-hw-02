@@ -110,35 +110,70 @@ color:var(--title-secondary-text-color)
 /* What we do */
 .section-we-do{
     font-weight: bold;
-    text-align: center;
     letter-spacing: 0.03em;
 }
-.section-title-we-do{
+.section-title-we-do,
+.section-title-our-team,
+.section-title-regular-clients{
     font-size: 36px;
     line-height: 42px;
     color: var(--title-text-color);
+    text-align: center;
 }
 .discription-we-do{
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
-    color: var(--title-secondary-text-color)
+    color: red
 }
 
 /* Our team */
+.section-title-our-team,
+.section-title-our-team-names,
+.description-our-team{
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.section-title-our-team-names{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    color:var(--title-text-color);
+}
+
+.description-our-team{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+
+/* Regular clients */
+
+
 
 /* Footer */
 footer{
     background-color: var(--footer-bg-color);
+    color:var(--title-secondary-text-color);
 }
 
-.contact{
-      color:{var(--footer-text-color)}
-  }
-
+.web.studio{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
 .title-secondary{
-    color: var(--title-secondary-text-color);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
 }
+
 
 
 /* цвет основного текста #212121*/
