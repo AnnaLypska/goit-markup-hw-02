@@ -12,14 +12,14 @@
 }
 
 body {
-    background-color:#FFFFFF;
+    background-color:#ffffff;
     color: var(--primery-text-color);
     font-family: "Roboto", sans-serif;
     font-size: 14px;
 }
 
 .list {
-    list-style: none;
+    list-style: none;`
 }
 
 .link {
@@ -61,30 +61,71 @@ body {
   
 .header-address-mail, 
 .header-address-tel
-{    color:var(--primery-text-color);
+{color:var(--primery-text-color);
 }
 
 
 
+ /* MAIN */
 
-
-
-
-
- /* Main */
-.hero-title {
-    color:#FFFFFF;
+  /* HERO */
+.hero-title,
+.hero-btn{
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: red;
 }
+
+.hero-btn{
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+color:var(--title-secondary-text-color)
+}
+
+/* Signs about us */
+.section{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
 .section-title{
+    color:var(--title-text-color)
+}
+
+.discription{
+    font-weight: normal;
+    line-height: 24px;
+}
+
+/* What we do */
+.section-we-do{
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.section-title-we-do{
+    font-size: 36px;
+    line-height: 42px;
     color: var(--title-text-color);
 }
-
-.secondary-bg-color{
-    background-color: var(--secondary-bg-color);
+.discription-we-do{
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: var(--title-secondary-text-color)
 }
 
-/* Портфолио */
-
+/* Our team */
 
 /* Footer */
 footer{
