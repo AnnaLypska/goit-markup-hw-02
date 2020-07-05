@@ -28,7 +28,14 @@ body {
 
 /* Header */
 .logo {
-    color: #212121;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+   
 }
 
 .logo:hover,
@@ -86,8 +93,16 @@ font-size: 16px;
 line-height: 30px;
 display: flex;
 align-items: center;
-color:var(--title-secondary-text-color)
+color:var(--title-text-color);
 }
+
+.hero-btn:hover,
+.hero-btn:focus{
+    color:var(--title-secondary-text-color);
+    background-color: var(--button-color);
+}
+
+
 
 /* Signs about us */
 .section{
@@ -128,6 +143,10 @@ color:var(--title-secondary-text-color)
 }
 
 /* Our team */
+.our-team{
+    background-color: var(--secondary-bg-color);
+}
+
 .section-title-our-team,
 .section-title-our-team-names,
 .description-our-team{
@@ -157,23 +176,52 @@ color:var(--title-secondary-text-color)
 footer{
     background-color: var(--footer-bg-color);
     color:var(--title-secondary-text-color);
+    
+}
+.Studio-f{
+    color:var(--title-secondary-text-color);
 }
 
-.web.studio{
-    font-family: Raleway;
+.Studio-f:hover,
+.Studio-f:focus{
+    color: var(--accent-color);
+}   
+
+.contacts-footer{
     font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-}
-.title-secondary{
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
 }
 
+.contact-mail-f,
+.contact-tel-f{
+color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-join-f,
+.contact-subscribe-f{
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.contact-subscribe-btn-f{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.contact-subscribe-btn-f:hover,
+.contact-subscribe-btn-f:focus{
+    color:var(--title-secondary-text-color);
+    background-color: var(--button-color);
+}
 
 
 /* цвет основного текста #212121*/
@@ -181,3 +229,39 @@ footer{
 /* белый #FFFFFF*/
 /* акцент #2196F3*/
 /* вторичный цвет фона #F5F4FA */
+
+
+/* PORTFOLIO */
+
+/* Our works */
+.our-works-list-btn{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;   
+    color:var(--title-text-color);
+}
+.our-works-list-btn:hover,
+.our-works-list-btn:focus{
+    color:var(--title-secondary-text-color);
+    background-color: var(--button-color);
+}
+
+.pictures-items-link-title{
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color:var(--title-text-color);
+}
+
+.pictures-items-link-position{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
